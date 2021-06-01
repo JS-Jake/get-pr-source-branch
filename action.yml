@@ -1,0 +1,8 @@
+name: "Git PR Source Branch"
+description: "Gets the source branch of a pull request from the github actions context"
+branding:
+  icon: "git-branch"
+  color: "purple"
+runs:
+  using: "node14"
+  main: index.js

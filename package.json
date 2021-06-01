@@ -1,0 +1,23 @@
+{
+  "name": "get-pr-source-branch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-Jake/get-pr-source-branch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-Jake/get-pr-source-branch/issues"
+  },
+  "homepage": "https://github.com/JS-Jake/get-pr-source-branch#readme",
+  "dependencies": {
+    "@actions/core": "^1.3.0"
+  }
+}
