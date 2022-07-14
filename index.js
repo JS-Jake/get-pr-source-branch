@@ -1,5 +1,5 @@
-import { exportVariable, setFailed } from "@actions/core";
-import { readFileSync } from "fs";
+const { exportVariable, setFailed } = require("@actions/core");
+const { readFileSync } = require("fs");
 
 try {
   const context = JSON.parse(readFileSync(process.env.GITHUB_EVENT_PATH));
