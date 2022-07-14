@@ -19,5 +19,8 @@
   "homepage": "https://github.com/JS-Jake/get-pr-source-branch#readme",
   "dependencies": {
     "@actions/core": "^1.3.0"
+  },
+  "volta": {
+    "node": "16.16.0"
   }
 }
